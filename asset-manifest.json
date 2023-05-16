@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e3790821.css",
-    "main.js": "/portfolio/static/js/main.70e4dc18.js",
-    "static/media/leo-profile.png": "/portfolio/static/media/leo-profile.f10efffd5530e80da999.png",
-    "static/media/curriculo-leonardo-de-sousa-barbosa.pdf": "/portfolio/static/media/curriculo-leonardo-de-sousa-barbosa.930b0de0d1799230d78d.pdf",
-    "static/media/pomodorotask.png": "/portfolio/static/media/pomodorotask.c237a1e6e4fb4aa32509.png",
-    "static/media/movie-api.png": "/portfolio/static/media/movie-api.f2127baa622dbbd3ae25.png",
-    "static/media/gym-wireframe.png": "/portfolio/static/media/gym-wireframe.8e3ab33d9d429a137bed.png",
-    "static/media/interior-design-wireframe.png": "/portfolio/static/media/interior-design-wireframe.137f5633591ea5c328ba.png",
-    "static/media/nikelp.png": "/portfolio/static/media/nikelp.2306aaacc2a009c4fdf5.png",
-    "static/media/email-marketing-bfms.png": "/portfolio/static/media/email-marketing-bfms.918e590a20018abe997f.png",
-    "static/media/questions-api.png": "/portfolio/static/media/questions-api.210b1238dcedc6f3e7aa.png",
-    "static/media/shopping-list.png": "/portfolio/static/media/shopping-list.493e11ebb0d3e44649dd.png",
-    "static/media/tmb_calculator.png": "/portfolio/static/media/tmb_calculator.de68e0b3cfa61a27cc3c.png",
-    "index.html": "/portfolio/index.html",
-    "main.e3790821.css.map": "/portfolio/static/css/main.e3790821.css.map",
-    "main.70e4dc18.js.map": "/portfolio/static/js/main.70e4dc18.js.map"
+    "main.css": "/static/css/main.e3790821.css",
+    "main.js": "/static/js/main.3043407a.js",
+    "static/media/leo-profile.png": "/static/media/leo-profile.f10efffd5530e80da999.png",
+    "static/media/curriculo-leonardo-de-sousa-barbosa.pdf": "/static/media/curriculo-leonardo-de-sousa-barbosa.930b0de0d1799230d78d.pdf",
+    "static/media/pomodorotask.png": "/static/media/pomodorotask.c237a1e6e4fb4aa32509.png",
+    "static/media/movie-api.png": "/static/media/movie-api.f2127baa622dbbd3ae25.png",
+    "static/media/gym-wireframe.png": "/static/media/gym-wireframe.8e3ab33d9d429a137bed.png",
+    "static/media/interior-design-wireframe.png": "/static/media/interior-design-wireframe.137f5633591ea5c328ba.png",
+    "static/media/nikelp.png": "/static/media/nikelp.2306aaacc2a009c4fdf5.png",
+    "static/media/email-marketing-bfms.png": "/static/media/email-marketing-bfms.918e590a20018abe997f.png",
+    "static/media/questions-api.png": "/static/media/questions-api.210b1238dcedc6f3e7aa.png",
+    "static/media/shopping-list.png": "/static/media/shopping-list.493e11ebb0d3e44649dd.png",
+    "static/media/tmb_calculator.png": "/static/media/tmb_calculator.de68e0b3cfa61a27cc3c.png",
+    "index.html": "/index.html",
+    "main.e3790821.css.map": "/static/css/main.e3790821.css.map",
+    "main.3043407a.js.map": "/static/js/main.3043407a.js.map"
   },
   "entrypoints": [
     "static/css/main.e3790821.css",
-    "static/js/main.70e4dc18.js"
+    "static/js/main.3043407a.js"
   ]
 }
