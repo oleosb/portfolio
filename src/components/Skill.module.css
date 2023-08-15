@@ -1,0 +1,18 @@
+.skill{
+    width: clamp(55px, 4em, 60px);
+    height: clamp(55px, 4em, 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary-color);
+    border-radius: 4px;
+    box-shadow:  6px -6px 12px #c6c7c9,
+        -6px 6px 12px #ffffff;
+    position: relative;
+}
+
+.skill > svg{
+    font-size: clamp(25px, 1.8em, 30px);
+    transition: color .2s ease;
+    color: var(--primary-color);
+}

@@ -1,0 +1,11 @@
+.topArrow{
+          position: fixed;
+          right: 10px;
+          bottom: 10px;
+          cursor: pointer;
+}
+
+.topArrow > svg{
+    font-size: 20px;
+    color: var(--terciary-color);
+}

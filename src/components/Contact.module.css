@@ -1,0 +1,93 @@
+.dark{
+          color: var(--secondary-color);
+          background-color: var(--primary-color);
+}
+
+.light{
+          color: var(--primary-color);
+          background-color: var(--secondary-color);
+}
+
+.container{
+          padding-left: 10%;
+          padding-right: 10%;
+          padding-bottom: min(10%, 75px);
+          padding-top: min(5%, 30px);
+}
+
+/** CONTACTS */
+.contacts{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          font-size: min(1.264rem, 15px);
+          color: var(--primary-color);
+}
+
+.contact:hover,
+.contact:hover .icon{
+          color: var(--terciary-color);
+}
+
+.contact{
+          color: var(--primary-color);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          width: fit-content;
+          padding: 0.2em 0.5em;
+          position: relative;
+          transition: color .2s ease;
+          z-index: 97 !important;
+}
+
+.contact + .contact{
+          margin: 1.5em 0 0 0;
+}  
+
+.icon{
+          font-size: clamp(25px, 1.8em, 30px);
+          transition: color .2s ease;
+          width: fit-content;
+          height: fit-content;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: var(--primary-color);
+          margin: 0 0.5em 0 0;
+}
+
+.icon:hover{
+          color: var(--terciary-color);
+}
+
+.contactEmail{
+          border: none;
+          background: none;
+          position: relative;
+}
+
+.contactEmail::before{
+          content: 'copiado!';
+          position: absolute;
+          width: 0;
+          height: 100%;
+          text-align: center;
+          top: 0;
+          right: -0.4em;
+          line-height: 2em;
+          overflow: hidden;
+          background-color: var(--terciary-color);
+          color: var(--secondary-color);
+          transition: width .4s ease, right .4s ease;
+}
+
+.contactEmail.copied::before{
+          width: 100%;
+          right: auto;
+          left: 0;
+}
+

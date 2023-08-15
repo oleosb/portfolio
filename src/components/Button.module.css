@@ -1,0 +1,44 @@
+.btn{
+          display: block;
+          padding: .4em .6em;
+          background: none;
+          border: none;
+          font-weight: 600;
+          position: relative;
+          text-transform: lowercase;
+          cursor: pointer;
+          position: relative;
+          font-size: min(1.264rem, 15px);
+          color: var(--terciary-color) !important;
+          z-index: 97 !important;
+  }
+
+  .btn > a{
+          z-index: 97 !important;
+  }
+
+  .btn > a,
+  .btn > a:visited{
+        color: var(--terciary-color);
+  }
+  
+  .btn::before{
+          z-index: -1 !important;
+          content: '';
+          width: .25em;
+          height: 100%;
+          left: 0;
+          top: 0;
+          background-color: var(--terciary-color);
+          transition: width .4s ease;
+          position: absolute;
+  }
+  
+  .btn:hover a{
+          color: var(--secondary-color) !important;
+  }
+
+  .btn:hover::before{
+          width: 100%;
+  }
+  

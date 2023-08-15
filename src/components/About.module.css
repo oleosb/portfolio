@@ -1,0 +1,108 @@
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: min(10%, 75px);
+    padding-top: min(5%, 30px);
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.about1, .about2{
+    margin: 0 auto;
+    flex: 1;
+}
+
+.personObj {
+    width: fit-content;
+    margin: 0 auto 2em auto;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    box-shadow:  4px -4px 12px rgba(0, 0, 0, 0.5),
+        -4px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.personObj > p {
+    font-weight: 300;
+    letter-spacing: .01em;
+}
+
+.personObj span{
+    color: var(--terciary-color);
+    font-weight: 500;
+}
+
+.personObj > p:first-of-type,
+.personObj > p:last-of-type{
+    margin: 0;
+}
+
+.personObj > p{
+    margin: 0 0 0 2em;
+}
+
+.history{
+    margin: 0 auto 2em auto;
+}
+
+.history > p{
+    text-indent: 1.5em;
+    text-align: justify;
+}
+
+.history > p+p{
+    margin:  .5em 0 0 0;
+}
+
+.qualification{
+    margin: 0 auto;
+}
+
+.skillList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 450px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.skill{
+    width: fit-content;
+    height: 20px;
+    padding:  1em;
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    background: var(--secondary-color);
+    border-radius: 4px;
+    box-shadow:  4px -4px 12px rgba(0, 0, 0, 0.5),
+        -4px 4px 12px rgba(0, 0, 0, 0.5);
+    position: relative;
+    color: var(--primary-color) !important; 
+    font-size: min(1.264rem, 15px);
+}
+
+.skill > svg{
+    transition: color .2s ease;
+}
+
+.skill > img{
+    height: min(1.264rem, 15px);
+}
+
+
+@media (min-width: 440px){
+    .about {
+            justify-content: space-between;
+    }
+
+    .about1,
+    .about2{
+            min-width: 350px;
+    }
+}

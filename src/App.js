@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import Header from "./components/Header";
+import Contact from "./components/Contact";
+import Projects from "./components/Projects";
+import "./App.css";
+import { useState } from "react";
+import TopArrow from "./components/TopArrow";
+import About from "./components/About";
 
-function App() {
+const App = () => {
+  const copyMail = () => {
+    navigator.clipboard.writeText("oleosbo@gmail.com");
+  };
+
+  const [arrow, setTopArrow] = useState(false);
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > document.body.offsetHeight / 5) {
+      setTopArrow(true);
+    } else {
+      setTopArrow(false);
+    }
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter basename="">
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sobre" element={<About />} />
+        <Route path="/projetos" element={<Projects />} />
+      </Routes>
+      <Contact copyMail={copyMail} />
+
+      {arrow && <TopArrow />}
+    </HashRouter>
   );
-}
+};
 
 export default App;

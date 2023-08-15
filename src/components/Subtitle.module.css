@@ -1,0 +1,18 @@
+.subtitle{
+          font-size: min(1.5rem, 18px);
+          margin: 0 0 .5em 0;
+          text-transform: uppercase;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: .5em;
+}
+
+.ball{
+    width: 5px !important;
+    height: 5px !important;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
