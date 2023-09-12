@@ -15,33 +15,47 @@ import {
   SiWordpress,
   SiWoo,
   SiMysql,
+  SiPhp,
+  SiRedux,
+  SiScrumalliance,
 } from "react-icons/si";
-
 
 export const skills = [
   {
-    img: <SiHtml5 />,
-    txt: "HTML",
-  },
-  {
-    img: <SiCss3 />,
-    txt: "CSS",
+    img: <SiReact />,
+    txt: "ReactJS",
   },
   {
     img: <SiJavascript />,
     txt: "JavaScript",
   },
   {
+    img: <SiRedux />,
+    txt: "Redux",
+  },
+  {
+    img: <SiHtml5 />,
+    txt: "HTML",
+  },
+  {
+    img: <SiScrumalliance />,
+    txt: "Scrum",
+  },
+  {
     img: <SiMysql />,
     txt: "MySQL",
   },
   {
-    img: <SiReact />,
-    txt: "ReactJS",
-  },
-  {
     img: <SiTypescript />,
     txt: "TypeScript",
+  },
+  {
+    img: <SiPhp />,
+    txt: "PHP",
+  },
+  {
+    img: <SiCss3 />,
+    txt: "CSS",
   },
   {
     img: <SiAngular />,
