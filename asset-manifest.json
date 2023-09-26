@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3eba1fe9.css",
-    "main.js": "/portfolio/static/js/main.e04cb97a.js",
+    "main.js": "/portfolio/static/js/main.904e1aef.js",
     "static/media/leo-profile.png": "/portfolio/static/media/leo-profile.f10efffd5530e80da999.png",
     "static/media/pomodorotask.png": "/portfolio/static/media/pomodorotask.c237a1e6e4fb4aa32509.png",
     "static/media/movie-api.png": "/portfolio/static/media/movie-api.f2127baa622dbbd3ae25.png",
     "static/media/gym-wireframe.png": "/portfolio/static/media/gym-wireframe.8e3ab33d9d429a137bed.png",
-    "static/media/curriculo-leonardo-de-sousa-barbosa.pdf": "/portfolio/static/media/curriculo-leonardo-de-sousa-barbosa.14ad7d708f57b1792499.pdf",
+    "static/media/curriculo-leonardo-de-sousa-barbosa.pdf": "/portfolio/static/media/curriculo-leonardo-de-sousa-barbosa.a10131e59c67852dbe8f.pdf",
     "static/media/interior-design-wireframe.png": "/portfolio/static/media/interior-design-wireframe.137f5633591ea5c328ba.png",
     "static/media/nikelp.png": "/portfolio/static/media/nikelp.2306aaacc2a009c4fdf5.png",
     "static/media/email-marketing-bfms.png": "/portfolio/static/media/email-marketing-bfms.918e590a20018abe997f.png",
@@ -15,10 +15,10 @@
     "static/media/tmb_calculator.png": "/portfolio/static/media/tmb_calculator.de68e0b3cfa61a27cc3c.png",
     "index.html": "/portfolio/index.html",
     "main.3eba1fe9.css.map": "/portfolio/static/css/main.3eba1fe9.css.map",
-    "main.e04cb97a.js.map": "/portfolio/static/js/main.e04cb97a.js.map"
+    "main.904e1aef.js.map": "/portfolio/static/js/main.904e1aef.js.map"
   },
   "entrypoints": [
     "static/css/main.3eba1fe9.css",
-    "static/js/main.e04cb97a.js"
+    "static/js/main.904e1aef.js"
   ]
 }
