@@ -21,7 +21,7 @@ const ProjectPage = () => {
         </div>
         <div className={styles.right}>
           <div>
-            <Subtitle text={"SKILLS"} margin={"0 0 .7em 0"} />
+            <Subtitle text={"TECNOLOGIAS"} margin={"0 0 .7em 0"} />
             <div className={styles.tecs}>
               <div className={styles.tecList}>
                 {project[0].tecs.map((tec, idx) => (

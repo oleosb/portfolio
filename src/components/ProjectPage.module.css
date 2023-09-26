@@ -37,6 +37,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 1em;
+  max-width: 350px;
 }
 
 .projectDesc {
@@ -82,4 +83,10 @@
 
 .skill > img {
   height: min(1.264rem, 15px);
+}
+
+@media (min-width: 1080px) {
+  .left {
+    max-width: unset;
+  }
 }
