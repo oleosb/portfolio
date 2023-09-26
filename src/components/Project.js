@@ -54,7 +54,6 @@ const Project = ({
       </div>
       <Subtitle text={title} margin="0" ball={category} />
       <img src={img} alt={title} />
-      <p className={styles.projectDesc}>{description}</p>
     </div>
   );
 };
