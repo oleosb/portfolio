@@ -14,9 +14,31 @@ import gymWireframe from "../imgs/gym-wireframe.png";
 import emailMarketingBFMS from "../imgs/email-marketing-bfms.png";
 import interiorDesignWireframe from "../imgs/interior-design-wireframe.png";
 import pomodoroTask from "../imgs/pomodorotask.png";
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiGit,
+  SiReact,
+  SiTypescript,
+  SiC,
+  SiPython,
+  SiBootstrap,
+  SiMicrosoftoffice,
+  SiAdobe,
+  SiFigma,
+  SiAngular,
+  SiWordpress,
+  SiWoo,
+  SiMysql,
+  SiPhp,
+  SiRedux,
+  SiScrumalliance,
+} from "react-icons/si";
 
 export const projects = [
   {
+    id: 1,
     title: "Pomodoro Task",
     site: "https://oleosb.github.io/pomodoro-task",
     img: pomodoroTask,
@@ -37,9 +59,36 @@ export const projects = [
       "time",
       "npm",
     ],
+    tecs: [
+      {
+        img: <SiReact />,
+        txt: "ReactJS",
+      },
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 2,
     title: "Wireframe D. de Interiores",
     behance:
       "https://www.behance.net/gallery/153809055/interior-design-uiux-design",
@@ -57,9 +106,20 @@ export const projects = [
       "user",
       "usuario",
     ],
+    tecs: [
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiAdobe />,
+        txt: "Pacote Adobe",
+      },
+    ],
     category: "#C55FFC",
   },
   {
+    id: 3,
     title: "Nike Landing Page",
     gitHub: "https://github.com/oleosb/nike-landing_page",
     site: "https://oleosb.github.io/nike-landing-page/",
@@ -81,9 +141,32 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiAdobe />,
+        txt: "Pacote Adobe",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 4,
     title: "Calculadora de TMB",
     gitHub: "https://github.com/oleosb/calculadora_tmb-reactjs-",
     site: "https://oleosb.github.io/calculadora-tmb-reactjs",
@@ -106,9 +189,36 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiReact />,
+        txt: "ReactJS",
+      },
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiAdobe />,
+        txt: "Pacote Adobe",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 5,
     title: "Lista de Compras",
     gitHub: "https://github.com/oleosb/shopping_list-reactjs",
     site: "https://oleosb.github.io/shopping-list-reactjs/",
@@ -128,9 +238,32 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiReact />,
+        txt: "ReactJS",
+      },
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 6,
     title: "Wireframe Academia",
     behance: "https://www.behance.net/gallery/153808403/gym-uiux-design",
     img: gymWireframe,
@@ -149,9 +282,20 @@ export const projects = [
       "gym",
       "academia",
     ],
+    tecs: [
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiAdobe />,
+        txt: "Pacote Adobe",
+      },
+    ],
     category: "#C55FFC",
   },
   {
+    id: 7,
     title: "Email Marketing BFMS",
     behance: "https://www.behance.net/gallery/153809541/Email-Marketing-BFMS?",
     img: emailMarketingBFMS,
@@ -170,9 +314,28 @@ export const projects = [
       "html",
       "css",
     ],
+    tecs: [
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiAdobe />,
+        txt: "Pacote Adobe",
+      },
+    ],
     category: "#C55FFC",
   },
   {
+    id: 8,
     title: "Questions API",
     gitHub: "https://github.com/oleosb/questionApp_api-reactsjs-",
     site: "https://oleosb.github.io/question-api-reactjs/",
@@ -192,9 +355,28 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: null,
+        txt: "API",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 9,
     title: "Notes App",
     gitHub: "https://github.com/oleosb/notesApp-reactjs-",
     img: notesReact,
@@ -212,9 +394,28 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiReact />,
+        txt: "ReactJS",
+      },
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 10,
     title: "Movie App",
     gitHub: "https://github.com/oleosb/movieApp_tmdbApi-reactjs-",
     img: movieApi,
@@ -234,9 +435,32 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiReact />,
+        txt: "ReactJS",
+      },
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: null,
+        txt: "API",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 11,
     title: "Time Tools",
     gitHub: "https://github.com/oleosb/sb-tools",
     img: timeToolsImg,
@@ -260,9 +484,32 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 12,
     title: "Live User Filter",
     gitHub: "https://github.com/oleosb/live-filter-api",
     img: liveUserImg,
@@ -282,9 +529,36 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: null,
+        txt: "API",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 13,
     title: "Password Generator",
     gitHub: "https://github.com/oleosb/password-generator",
     img: passwordGenImg,
@@ -302,9 +576,32 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 14,
     title: "Random Choice Picker",
     gitHub: "https://github.com/oleosb/random-picker",
     img: randomChoiceImg,
@@ -324,9 +621,32 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 15,
     title: "Questions API",
     gitHub: "https://github.com/oleosb/questions-api",
     img: questionsImg,
@@ -344,9 +664,32 @@ export const projects = [
       "code",
       "codigo",
     ],
+    tecs: [
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
+    ],
     category: "#F8D210",
   },
   {
+    id: 16,
     title: "Notes App",
     gitHub: "https://github.com/oleosb/notes-app",
     img: notesImg,
@@ -364,6 +707,28 @@ export const projects = [
       "storage",
       "code",
       "codigo",
+    ],
+    tecs: [
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
     ],
     category: "#F8D210",
   },

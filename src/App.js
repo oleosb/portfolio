@@ -8,6 +8,7 @@ import "./App.css";
 import { useState } from "react";
 import TopArrow from "./components/TopArrow";
 import About from "./components/About";
+import ProjectPage from "./components/ProjectPage";
 
 const App = () => {
   const copyMail = () => {
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<About />} />
         <Route path="/projetos" element={<Projects />} />
+        <Route path="/projetos/:id" element={<ProjectPage />} />
       </Routes>
       <Contact copyMail={copyMail} />
 

@@ -1,12 +1,22 @@
-import styles from './Project.module.css'
-import { FaGithub, FaGlobe, FaBehanceSquare } from 'react-icons/fa';
-import Subtitle from './Subtitle';
+import styles from "./Project.module.css";
+import { FaGithub, FaGlobe, FaBehanceSquare, FaEye } from "react-icons/fa";
+import Subtitle from "./Subtitle";
+import { NavLink } from "react-router-dom";
 
-const Project = ({title, gitHub, site, behance, img, description, category,}) => {
+const Project = ({
+  title,
+  gitHub,
+  site,
+  behance,
+  img,
+  description,
+  category,
+  id,
+}) => {
   return (
-          <div className={styles.project}>
-          <div className={styles.projectHover}>
-          {gitHub && <a
+    <div className={styles.project}>
+      <div className={styles.projectHover}>
+        {/* {gitHub && <a
             href={gitHub}
             target="_blank"
             rel="noreferrer"
@@ -29,14 +39,24 @@ const Project = ({title, gitHub, site, behance, img, description, category,}) =>
             className={`${styles.icon}`}
           >
             <FaGlobe />
-          </a>}
-          </div>
-          <Subtitle text={title} margin="0" ball={category} />
-          <img src={img} alt={title} />
-          <p className={styles.projectDesc}>{description}
-          </p>
-        </div>
-  )
-}
+          </a>} */}
 
-export default Project
+        <NavLink to={`/projetos/${id}`}>
+          <a
+            href={gitHub}
+            target="_blank"
+            rel="noreferrer"
+            className={` ${styles.icon}`}
+          >
+            <FaEye />
+          </a>
+        </NavLink>
+      </div>
+      <Subtitle text={title} margin="0" ball={category} />
+      <img src={img} alt={title} />
+      <p className={styles.projectDesc}>{description}</p>
+    </div>
+  );
+};
+
+export default Project;

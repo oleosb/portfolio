@@ -1,0 +1,21 @@
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: min(10%, 75px);
+  padding-top: min(5%, 30px);
+}
+
+.icon {
+  font-size: clamp(25px, 1.8em, 30px);
+  transition: color 0.2s ease;
+  color: #ffffff5d;
+  padding: 10px;
+}
+
+.icon svg {
+  transition: color 0.2s ease;
+}
+
+.icon svg:hover {
+  color: var(--terciary-color);
+}
