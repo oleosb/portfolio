@@ -20,20 +20,8 @@ import {
   SiJavascript,
   SiGit,
   SiReact,
-  SiTypescript,
-  SiC,
-  SiPython,
-  SiBootstrap,
-  SiMicrosoftoffice,
   SiAdobe,
   SiFigma,
-  SiAngular,
-  SiWordpress,
-  SiWoo,
-  SiMysql,
-  SiPhp,
-  SiRedux,
-  SiScrumalliance,
 } from "react-icons/si";
 
 export const projects = [
