@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c5d2a63c.css",
-    "main.js": "/portfolio/static/js/main.05bec131.js",
+    "main.css": "/portfolio/static/css/main.fb81f0ef.css",
+    "main.js": "/portfolio/static/js/main.8d3694f0.js",
     "static/media/leo-profile.png": "/portfolio/static/media/leo-profile.f10efffd5530e80da999.png",
     "static/media/pomodorotask.png": "/portfolio/static/media/pomodorotask.c237a1e6e4fb4aa32509.png",
     "static/media/movie-api.png": "/portfolio/static/media/movie-api.f2127baa622dbbd3ae25.png",
@@ -14,11 +14,11 @@
     "static/media/shopping-list.png": "/portfolio/static/media/shopping-list.493e11ebb0d3e44649dd.png",
     "static/media/tmb_calculator.png": "/portfolio/static/media/tmb_calculator.de68e0b3cfa61a27cc3c.png",
     "index.html": "/portfolio/index.html",
-    "main.c5d2a63c.css.map": "/portfolio/static/css/main.c5d2a63c.css.map",
-    "main.05bec131.js.map": "/portfolio/static/js/main.05bec131.js.map"
+    "main.fb81f0ef.css.map": "/portfolio/static/css/main.fb81f0ef.css.map",
+    "main.8d3694f0.js.map": "/portfolio/static/js/main.8d3694f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5d2a63c.css",
-    "static/js/main.05bec131.js"
+    "static/css/main.fb81f0ef.css",
+    "static/js/main.8d3694f0.js"
   ]
 }
