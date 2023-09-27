@@ -37,7 +37,11 @@
   justify-content: center;
   flex-direction: column;
   gap: 1em;
-  max-width: 350px;
+  max-width: 300px;
+}
+
+.left img {
+  max-width: 300px;
 }
 
 .projectDesc {

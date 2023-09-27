@@ -1,14 +1,14 @@
-import Button from './Button';
-import Title from './Title';
-import Subtitle from './Subtitle';
-import Project from './Project';
-import { projects } from '../helpers/projectList';
-import styles from './Home.module.css';
-import { FaGithub, FaLinkedinIn, FaBehanceSquare } from 'react-icons/fa';
-import leoProfileImg from '../imgs/leo-profile.png';
-import curriculum from '../docs/curriculo-leonardo-de-sousa-barbosa.pdf';
-import { NavLink } from 'react-router-dom';
-import { skills } from '../helpers/skillList';
+import Button from "./Button";
+import Title from "./Title";
+import Subtitle from "./Subtitle";
+import Project from "./Project";
+import { projects } from "../helpers/projectList";
+import styles from "./Home.module.css";
+import { FaGithub, FaLinkedinIn, FaBehanceSquare } from "react-icons/fa";
+import leoProfileImg from "../imgs/leo-profile.png";
+import curriculum from "../docs/curriculo-leonardo-de-sousa-barbosa.pdf";
+import { NavLink } from "react-router-dom";
+import { skills } from "../helpers/skillList";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         <div className={styles.mainHome1}>
           <h3>OLÁ,</h3>
           <h1>EU SOU O LEO.</h1>
-          <h4>FRONT-END DEV + UX/UI DESIGNER</h4>
+          <h4>FRONT-END DEV</h4>
           <h3>SEJA BEM-VINDO AO MEU PORTFÓLIO.</h3>
         </div>
         <div className={styles.mainHome2}>
@@ -59,7 +59,7 @@ const App = () => {
           <div className={styles.about1}>
             <div className={`${styles.personObj} dark`}>
               <p>
-                const <span>person</span> = {'{'}
+                const <span>person</span> = {"{"}
               </p>
               <p>
                 firstName: <span>"Leonardo"</span>,
@@ -71,9 +71,9 @@ const App = () => {
                 age: <span>new Date().getFullYear() - 1998</span>,
               </p>
               <p>
-                traits: {'['}
+                traits: {"["}
                 <span>"Dev"</span>, <span>"Designer"</span>
-                {']'},
+                {"]"},
               </p>
               <p>
                 education: <span>"Self-taught"</span>,
@@ -81,11 +81,11 @@ const App = () => {
               <p>
                 location: <span>"Limeira, São Paulo"</span>
               </p>
-              <p>{'}'}</p>
+              <p>{"}"}</p>
             </div>
             <Button
-              text={'currículo.pdf'}
-              margin={'0 auto'}
+              text={"currículo.pdf"}
+              margin={"0 auto"}
               link={curriculum}
             />
           </div>
@@ -103,7 +103,7 @@ const App = () => {
               </p>
             </div>
             <div className={styles.qualification}>
-              <Subtitle text={'SKILLS'} margin={'0 0 .7em 0'} />
+              <Subtitle text={"SKILLS"} margin={"0 0 .7em 0"} />
               <div className={styles.skillList}>
                 {skills.slice(0, 6).map((skill, idx) => (
                   <div className={styles.skill} key={idx}>
@@ -112,9 +112,9 @@ const App = () => {
                 ))}
               </div>
               <Button
-                text={'mais'}
-                link={'/sobre'}
-                margin={'2em auto 0 auto'}
+                text={"mais"}
+                link={"/sobre"}
+                margin={"2em auto 0 auto"}
                 nav={<NavLink to="/sobre">mais</NavLink>}
               />
             </div>
@@ -128,10 +128,10 @@ const App = () => {
         <Title text="PROJETOS" />
         <div className={styles.categories}>
           <div>
-            <div style={{ backgroundColor: '#F8D210' }}></div> código
+            <div style={{ backgroundColor: "#F8D210" }}></div> código
           </div>
           <div>
-            <div style={{ backgroundColor: '#C55FFC' }}></div>design
+            <div style={{ backgroundColor: "#C55FFC" }}></div>design
           </div>
         </div>
         <div className={styles.projects}>
@@ -140,9 +140,9 @@ const App = () => {
           ))}
         </div>
         <Button
-          text={'mais'}
-          link={'/projetos'}
-          margin={'2em auto 0 auto'}
+          text={"mais"}
+          link={"/projetos"}
+          margin={"2em auto 0 auto"}
           nav={<NavLink to="/projetos">mais</NavLink>}
         />
       </section>
