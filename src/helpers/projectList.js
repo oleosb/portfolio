@@ -14,6 +14,7 @@ import gymWireframe from "../imgs/gym-wireframe.png";
 import emailMarketingBFMS from "../imgs/email-marketing-bfms.png";
 import interiorDesignWireframe from "../imgs/interior-design-wireframe.png";
 import pomodoroTask from "../imgs/pomodorotask.png";
+import dogs from "../imgs/dogs.png";
 import {
   SiHtml5,
   SiCss3,
@@ -22,9 +23,68 @@ import {
   SiReact,
   SiAdobe,
   SiFigma,
+  SiWordpress
 } from "react-icons/si";
 
 export const projects = [
+  {
+    id: 0,
+    title: "Dogs (Instagram Clone)",
+    gitHub: "https://github.com/oleosb/dogs-instagram-clone",
+    img: dogs,
+    description: "Um clone do Instagram para fotos de cães.",
+    tags: [
+      "instagram",
+      "dogs",
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "js",
+      "code",
+      "codigo",
+      "foto",
+      "post",
+      "api",
+      "wordpress",
+      "npm",
+    ],
+    tecs: [
+      {
+        img: <SiReact />,
+        txt: "ReactJS",
+      },
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+
+      {
+        txt: "API",
+      },
+      {
+        img: <SiWordpress />,
+        txt: "Wordpress",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+    ],
+    category: "#F8D210",
+  },
   {
     id: 1,
     title: "Pomodoro Task",
