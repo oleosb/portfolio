@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fb81f0ef.css",
-    "main.js": "/portfolio/static/js/main.8d3694f0.js",
+    "main.js": "/portfolio/static/js/main.950b7c8d.js",
     "static/media/leo-profile.png": "/portfolio/static/media/leo-profile.f10efffd5530e80da999.png",
     "static/media/pomodorotask.png": "/portfolio/static/media/pomodorotask.c237a1e6e4fb4aa32509.png",
     "static/media/movie-api.png": "/portfolio/static/media/movie-api.f2127baa622dbbd3ae25.png",
     "static/media/gym-wireframe.png": "/portfolio/static/media/gym-wireframe.8e3ab33d9d429a137bed.png",
     "static/media/curriculo-leonardo-de-sousa-barbosa.pdf": "/portfolio/static/media/curriculo-leonardo-de-sousa-barbosa.a10131e59c67852dbe8f.pdf",
     "static/media/interior-design-wireframe.png": "/portfolio/static/media/interior-design-wireframe.137f5633591ea5c328ba.png",
+    "static/media/dogs.png": "/portfolio/static/media/dogs.1848709e6e26841a9166.png",
     "static/media/nikelp.png": "/portfolio/static/media/nikelp.2306aaacc2a009c4fdf5.png",
     "static/media/email-marketing-bfms.png": "/portfolio/static/media/email-marketing-bfms.918e590a20018abe997f.png",
     "static/media/questions-api.png": "/portfolio/static/media/questions-api.210b1238dcedc6f3e7aa.png",
@@ -15,10 +16,10 @@
     "static/media/tmb_calculator.png": "/portfolio/static/media/tmb_calculator.de68e0b3cfa61a27cc3c.png",
     "index.html": "/portfolio/index.html",
     "main.fb81f0ef.css.map": "/portfolio/static/css/main.fb81f0ef.css.map",
-    "main.8d3694f0.js.map": "/portfolio/static/js/main.8d3694f0.js.map"
+    "main.950b7c8d.js.map": "/portfolio/static/js/main.950b7c8d.js.map"
   },
   "entrypoints": [
     "static/css/main.fb81f0ef.css",
-    "static/js/main.8d3694f0.js"
+    "static/js/main.950b7c8d.js"
   ]
 }
