@@ -17,7 +17,7 @@ const App = () => {
         <div className={styles.mainHome1}>
           <h3>OLÁ,</h3>
           <h1>EU SOU O LEO.</h1>
-          <h4>FRONT-END DEV</h4>
+          <h4>FULLSTACK DEV</h4>
           <h3>SEJA BEM-VINDO AO MEU PORTFÓLIO.</h3>
         </div>
         <div className={styles.mainHome2}>

@@ -15,6 +15,9 @@ import emailMarketingBFMS from "../imgs/email-marketing-bfms.png";
 import interiorDesignWireframe from "../imgs/interior-design-wireframe.png";
 import pomodoroTask from "../imgs/pomodorotask.png";
 import dogs from "../imgs/dogs.png";
+import card from "../imgs/cardgame.png";
+import noteNaji from "../imgs/note-naji.png";
+
 import {
   SiHtml5,
   SiCss3,
@@ -23,10 +26,132 @@ import {
   SiReact,
   SiAdobe,
   SiFigma,
-  SiWordpress
+  SiWordpress,
+  SiMongodb,
+  SiNpm,
+  SiNodedotjs,
 } from "react-icons/si";
 
 export const projects = [
+  {
+    id: 17,
+    title: "FullStack Todo App",
+    gitHub: "https://github.com/oleosb/todo-app-reactts-nodejs",
+    img: noteNaji,
+    description: "App de tarefas.",
+    tags: [
+      "typescript",
+      "npm",
+      "nodejs",
+      "todo",
+      "notes",
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "js",
+      "code",
+      "codigo",
+      "post",
+      "mongodb",
+      "mongoose",
+      "api",
+    ],
+    tecs: [
+      {
+        img: <SiReact />,
+        txt: "ReactJS",
+      },
+      {
+        img: <SiNodedotjs />,
+        txt: "Node.js",
+      },
+      {
+        img: <SiNpm />,
+        txt: "npm",
+      },
+      {
+        img: <SiMongodb />,
+        txt: "MongoDB",
+      },
+      {
+        txt: "Mongoose",
+      },
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+
+      {
+        txt: "API",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
+    ],
+    category: "#F8D210",
+  },
+  {
+    id: 17,
+    title: "Card Game",
+    gitHub: "https://github.com/oleosb/card-game",
+    img: card,
+    description: "Um jogo multiplayer de cartas.",
+    tags: [
+      "card",
+      "cartas",
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "js",
+      "code",
+      "codigo",
+      "foto",
+      "post",
+      "api",
+    ],
+    tecs: [
+      {
+        img: <SiReact />,
+        txt: "ReactJS",
+      },
+      {
+        img: <SiJavascript />,
+        txt: "JavaScript",
+      },
+      {
+        img: <SiHtml5 />,
+        txt: "HTML",
+      },
+      {
+        img: <SiCss3 />,
+        txt: "CSS",
+      },
+
+      {
+        txt: "API",
+      },
+      {
+        img: <SiGit />,
+        txt: "Git",
+      },
+      {
+        img: <SiFigma />,
+        txt: "Figma",
+      },
+    ],
+    category: "#F8D210",
+  },
   {
     id: 0,
     title: "Dogs (Instagram Clone)",

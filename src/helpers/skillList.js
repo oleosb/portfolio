@@ -18,6 +18,9 @@ import {
   SiPhp,
   SiRedux,
   SiScrumalliance,
+  SiMongodb,
+  SiNpm,
+  SiNodedotjs,
 } from "react-icons/si";
 
 export const skills = [
@@ -28,6 +31,16 @@ export const skills = [
   {
     img: <SiJavascript />,
     txt: "JavaScript",
+  },
+
+  {
+    img: <SiNodedotjs />,
+    txt: "Node.js",
+  },
+
+  {
+    img: <SiNpm />,
+    txt: "npm",
   },
   {
     img: <SiRedux />,
@@ -56,6 +69,13 @@ export const skills = [
   {
     img: <SiCss3 />,
     txt: "CSS",
+  },
+  {
+    img: <SiMongodb />,
+    txt: "MongDB",
+  },
+  {
+    txt: "Mongoose",
   },
   {
     img: <SiAngular />,
