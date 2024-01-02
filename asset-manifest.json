@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fb81f0ef.css",
-    "main.js": "/portfolio/static/js/main.bfed088d.js",
+    "main.js": "/portfolio/static/js/main.4d24e725.js",
     "static/media/leo-profile.png": "/portfolio/static/media/leo-profile.f10efffd5530e80da999.png",
     "static/media/pomodorotask.png": "/portfolio/static/media/pomodorotask.c237a1e6e4fb4aa32509.png",
     "static/media/movie-api.png": "/portfolio/static/media/movie-api.f2127baa622dbbd3ae25.png",
-    "static/media/curriculo-leonardo-de-sousa-barbosa.pdf": "/portfolio/static/media/curriculo-leonardo-de-sousa-barbosa.382a724ea89860cab7b9.pdf",
+    "static/media/curriculo-leonardo-de-sousa-barbosa.pdf": "/portfolio/static/media/curriculo-leonardo-de-sousa-barbosa.9536079e19b018fb7701.pdf",
     "static/media/gym-wireframe.png": "/portfolio/static/media/gym-wireframe.8e3ab33d9d429a137bed.png",
     "static/media/interior-design-wireframe.png": "/portfolio/static/media/interior-design-wireframe.137f5633591ea5c328ba.png",
     "static/media/dogs.png": "/portfolio/static/media/dogs.1848709e6e26841a9166.png",
@@ -17,10 +17,10 @@
     "static/media/cardgame.png": "/portfolio/static/media/cardgame.0d24cc134606ac0a8dc5.png",
     "index.html": "/portfolio/index.html",
     "main.fb81f0ef.css.map": "/portfolio/static/css/main.fb81f0ef.css.map",
-    "main.bfed088d.js.map": "/portfolio/static/js/main.bfed088d.js.map"
+    "main.4d24e725.js.map": "/portfolio/static/js/main.4d24e725.js.map"
   },
   "entrypoints": [
     "static/css/main.fb81f0ef.css",
-    "static/js/main.bfed088d.js"
+    "static/js/main.4d24e725.js"
   ]
 }
